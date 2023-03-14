@@ -1,0 +1,9 @@
+embedding_size: 64
+n_layers: 3
+reg_weight: 1e-4
+
+ssl_reg: 0.1
+ssl_ratio: 0.1
+ssl_temp: 0.2
+
+  

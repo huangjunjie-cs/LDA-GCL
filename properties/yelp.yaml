@@ -1,0 +1,19 @@
+load_col:
+  inter: [userId, itemId, rating]
+
+RATING_FIELD: rating
+ITEM_ID_FIELD: itemId
+USER_ID_FIELD: userId
+field_separator: ","
+
+data_path: 'datas/'
+benchmark_filename: ["train-1", "valid-1", "test-1"]
+eval_setting:
+  split:
+
+reg_weight: 1e-4
+ssl_temp: 0.05
+ssl_reg: 1e-6
+alpha: 1.5
+proto_reg: 1e-7
+num_clusters: 2000
