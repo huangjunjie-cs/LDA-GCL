@@ -9,7 +9,7 @@
 ## Methods
 
 
-
+![](https://huangjunjie-cs.github.io/static/uploads/covers/LDA_GCL.png)
 LDA-GCL includes learning data augmentation and graph contrastive learning.
 
 
