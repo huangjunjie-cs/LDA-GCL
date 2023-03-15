@@ -31,7 +31,7 @@ First, it's suggested to perform data splitting beforehand instead of relying on
 Also, note that the approach described in the paper requires training a model to obtain potential edges, and then combining them with the original edge set to create a candidate edge set. 
 To this end, you can use the ```LightGCN```  to train a model and save its parameters. 
 In case you don't want to train the model from scratch, a pre-trained model is provided as an example in the code. 
-You can download it from the link provided in the instructions and save it in the ```saved``` directory.
+You can download it from the [link](https://drive.google.com/drive/folders/19U8XwYgttOqQ1LFlaL8D47c7RMlTWJuU?usp=share_link) and save it in the ```saved``` directory.
 
 ### Run 
 You can run following commands:
