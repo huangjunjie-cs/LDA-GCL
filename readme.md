@@ -19,7 +19,13 @@ LDA-GCL includes learning data augmentation and graph contrastive learning.
 In order to run this code, you need to install following dependencies:
 
 ```
-pip install -r requirements.txt
+recbole==1.0.1
+tensorboard==2.11.0
+torch==1.11.0
+torch-geometric==2.0.4
+torch-scatter==2.0.9
+torch-sparse==0.6.13
+tqdm==4.64.0
 ```
 
 ## Run Experiments
