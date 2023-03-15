@@ -134,10 +134,10 @@ dmypy.json
 #dataset
 datas/*
 models/*
-saved/
 log_tensorboard/
 log/
 
+!datas/gowalla-merged
 !models/lightgcn.py
 !models/__init__.py
 !models/lightgcn_lda_gcl.py
