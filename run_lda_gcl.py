@@ -1028,10 +1028,10 @@ def load_pretrain_model_candidate(dataset, fold, logger):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='yelp', help='The datasets can be: ml-1m, yelp, amazon-books, gowalla-merged, alibaba.')
+    parser.add_argument('--dataset', type=str, default='yelp', help='The datasets can be: yelp, amazon-books, gowalla-merged, alibaba.')
     parser.add_argument('--config', type=str, default='', help='External config file name.')
-    parser.add_argument('--model', '-m', type=str, default='LightGCN', help='name of models')
-    parser.add_argument('--fold', '-f', type=str, default='train-1', help='name of models')
+    parser.add_argument('--model', '-m', type=str, default='LDAGCL', help='name of models')
+    parser.add_argument('--fold', '-f', type=str, default='train-1', help='fold n')
 
     args, _ = parser.parse_known_args()
     model_name = args.model
